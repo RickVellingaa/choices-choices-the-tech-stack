@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap");
+
+:root {
+  --c-magenta: rgb(185, 0, 95);
+  --c-pink: #e30059;
+
+  --c-white: rgb(255, 255, 255);
+  --c-grey: #959595;
+
+  --c-background: rgb(30, 30, 30);
+
+  --c-container: rgb(44, 44, 44);
+  --c-container-stroke: rgb(69, 69, 69);
+
+  --c-green: rgb(82, 255, 0);
+  --c-orange: rgb(255, 153, 0);
+  --c-red: rgb(247, 44, 44);
+
+  --c-border: rgb(255, 255, 255);
+
+  --c-modal-button: rgb(99, 99, 99);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--c-background);
+  color: var(--c-white);
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  margin-top: 0.25em;
+}
+
+progress {
+  width: 100%;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+}
+
+/* chrome/safari */
+progress[value]::-webkit-progress-bar {
+  background-color: var(--c-container-stroke);
+  border-radius: 0.5em;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: var(--c-pink);
+  border-radius: 0.5em;
+  transition: 1s ease-out;
+}
+
+.progress-percentage {
+  height: 85%;
+}

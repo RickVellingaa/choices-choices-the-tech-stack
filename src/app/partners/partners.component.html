@@ -1,0 +1,36 @@
+<app-heading>{{ entry["titel"] }}</app-heading>
+
+<ul class="grid grid-cols-layout m-0 mx-4 mb-4 list-none gap-4">
+  <li class="flex">
+    <a
+      class="flex flex-col justify-between gap-y-9 text-white bg-container-kleur no-underline p-4 rounded-lg border border-vervoer-grey transition duration-250 ease-in w-full hover:border-vervoer-roze"
+      href="#"
+      [routerLink]="entry['url'] ? [entry['url'][0].fields.slug] : []"
+    >
+      <section class="flex items-start justify-between flex-row">
+        <div>
+          <img
+            class="w-[60px] h-[60px]"
+            height="60"
+            [src]="faviconAPI + entry['homepagina'] + '&size=128'"
+            alt="Foto van {{ entry['titel'] }}"
+          />
+          <h2
+            class="text-2xl font-semibold mt-klein-margin text-tekst-grijs flex justify-center items-start flex-col"
+          >
+            {{ entry["titel"] }} <br />
+            <span class="text-white">/slug</span>
+          </h2>
+        </div>
+        <img src="/assets/arrow.svg" alt="" />
+      </section>
+      <section>
+        <span>Laatst bewerkt: 12 min. geleden</span>
+        <div class="progress-container">
+          <progress id="progress-partner" max="100" value="55"></progress>
+          <label class="progress-percentage" for="progress-partner">55%</label>
+        </div>
+      </section>
+    </a>
+  </li>
+</ul>
