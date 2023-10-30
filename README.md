@@ -1,27 +1,48 @@
-# Vervoerregio
+# Vervoerregio Amsterdam | Sprint 14
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+Live link: [toolgankelijk.netlify.app/](https://toolgankelijk.netlify.app/)
 
-## Development server
+## Inhoudsopgave
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-## Code scaffolding
+## Beschrijving
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+De Toolgankelijkheid website voor Vervoerregio Amsterdam waarmee medewerkers intern hun partners kunnen controleren op de toegankelijkheid van hun websites. 
 
-## Build
+![image](https://github.com/WesleySchorel/lose-your-head-the-client-case/assets/112857487/3044aca6-4b97-42b7-bc4d-501c73ca8a4a)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Kenmerken
 
-## Running unit tests
+Dit project is ontwikkeld door middel van Sveltekit. De inhoud wordt opgehaald door middel van een query uit Hygraph. De code wordt gehost op github en vervolgens door middel van Vercel live gezet. De code wordt gehost op GitHub. De live-versie van de website is beschikbaar op Netlify. Netlify is geïntegreerd met de GitHub Repository en genereert automatisch een nieuwe versie van de applicatie bij elke update op de main.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Wij hebben de volgende technieken en technologiën gebruikt:
 
-## Running end-to-end tests
+* Svelte
+* Sveltekit
+* Hygraph
+* HTML
+* JS
+* CSS
+* Figma
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installatie
+```
+1. Clone de repository
+2. Open de repo via github desktop
+3. Installeer npm packages d.m.v. npm install
+4. Run de localhost d.m.v. npm run dev
+```
 
-## Further help
+## Bronnen
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[FDND agency](https://github.com/fdnd-agency/vervoerregio-amsterdam) <br>
+[Hygraph mutation](https://hygraph.com/docs/api-reference/content-api/mutations) <br>
+
+## Licentie
+
+This project is licensed under the terms of the [MIT license](./LICENSE).
