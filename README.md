@@ -43,6 +43,7 @@ Wij hebben de volgende technieken en technologiën gebruikt:
 [FDND agency](https://github.com/fdnd-agency/vervoerregio-amsterdam) <br>
 [Contenful docs](https://www.contentful.com/developers/docs/) <br>
 [Angular docs](https://angular.io/docs) <br>
+[Tailwind CSS docs](https://tailwindcss.com/) <br>
 [Verschil Vue, React en Angular](https://www.browserstack.com/guide/angular-vs-react-vs-vue#:~:text=A%20simple%20difference%20between%20these,Vue%20with%2018.97%25%20of%20developers.) <br>
 [React of Angular](https://radixweb.com/blog/react-vs-angular) <br>
 [Vue of Angular](https://www.monterail.com/blog/vue-vs-react) <br>
